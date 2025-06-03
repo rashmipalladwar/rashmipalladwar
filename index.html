@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rashmi Palladwar Resume</title>
+  <!-- Google Fonts for Modern Look -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 CDN for Icons (use fa-solid) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      color: #222;
+    }
+    .resume-container {
+      max-width: 850px;
+      background: #fff;
+      margin: 40px auto 20px auto;
+      border-radius: 18px;
+      box-shadow: 0 6px 32px 0 rgba(51,102,204,0.12);
+      padding: 36px 40px 28px 40px;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #3266a8;
+      text-align: center;
+      letter-spacing: 3px;
+      font-size: 2.75em;
+      font-weight: 700;
+      margin-bottom: 0.2em;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.05em;
+      color: #4d4d4d;
+      gap: 16px 32px;
+      padding: 8px 0 2px 0;
+      margin-bottom: 18px;
+      border-bottom: 1px solid #e3eaf6;
+    }
+    .contact i {
+      color: #3266a8;
+      margin-right: 5px;
+    }
+    .contact a {
+      color: #3266a8;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+    .section {
+      margin-bottom: 28px;
+    }
+    .section-title {
+      background: linear-gradient(90deg, #f0f7fa 60%, #e3eaf6 100%);
+      color: #244665;
+      padding: 10px 16px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1.13em;
+      border-left: 6px solid #3266a8;
+      border-radius: 6px 0 0 6px;
+      margin-bottom: 13px;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-title i {
+      color: #3266a8;
+      font-size: 1.1em;
+      min-width: 22px;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      margin-bottom: 16px;
+      background: #f8fbff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(44, 77, 128, 0.04);
+    }
+    th, td {
+      padding: 10px 8px;
+      text-align: left;
+    }
+    th {
+      background: #eaf3fa;
+      font-weight: bold;
+      color: #244665;
+      border-bottom: 2px solid #bdd2ec;
+    }
+    td {
+      border-bottom: 1px solid #e2eaf5;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    ul {
+      margin-left: 22px;
+      margin-bottom: 0;
+    }
+    ul li {
+      margin-bottom: 6px;
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    ul li i {
+      color: #3266a8;
+      margin-top: 2px;
+      min-width: 18px;
+      text-align: center;
+      font-size: 1em;
+    }
+    p {
+      margin: 0 0 8px 0;
+    }
+    /* Skill pills */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .skill-pill {
+      background: #e3eaf6;
+      color: #244665;
+      border-radius: 14px;
+      padding: 5px 14px;
+      font-size: 0.98em;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 5px;
+      box-shadow: 0 1px 5px rgba(50, 102, 168, 0.09);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    /* Responsive */
+    @media (max-width: 700px) {
+      .resume-container { padding: 12px 5vw 16px 5vw;}
+      table, th, td { font-size: 0.97em;}
+      h1 { font-size: 2em;}
+    }
+    /* Masked details styling */
+    .masked {
+      letter-spacing: 2px;
+      color: #9ea9b5;
+      background: #eaf3fa;
+      padding: 2px 10px 2px 10px;
+      border-radius: 10px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1em;
+      font-weight: 500;
+      user-select: none;
+    }
+    .declaration {
+      font-style: italic;
+      color: #4a6c93;
+      margin-top: 14px;
+    }
+    .signature {
+      margin-top: 18px;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: bold;
+      color: #244665;
+      font-size: 1.06em;
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <h1><i class="fa-solid fa-user-graduate" style="color:#3266a8; margin-right:10px"></i>RASHMI PALLADWAR</h1>
+    <div class="contact">
+      <span><i class="fa-solid fa-envelope"></i> Email: <span class="masked">r*******.***@*****.com</span></span>
+      <span><i class="fa-solid fa-phone"></i> Phone: <span class="masked">+91-88******06</span></span>
+      <span><i class="fa-solid fa-location-dot"></i> Location: <span class="masked">Amravati, Maharashtra</span></span>
+      <span><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/rashmi-palladwar/" target="_blank">linkedin.com/in/rashmi-palladwar</a></span>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-user-tie"></i> PROFESSIONAL SUMMARY</div>
+      <p>
+        <i class="fa-solid fa-quote-left"></i>
+        Motivated MBA student specializing in Finance, with a robust foundation in auditing, financial analysis, and corporate finance. Leverages three years of hands-on internship experience in financial auditing and compliance to contribute impactfully to real-world financial projects. Passionate about learning from industry leaders and refining strategic decision-making.
+      </p>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-graduation-cap"></i> EDUCATION</div>
+      <table>
+        <tr>
+          <th><i class="fa-solid fa-certificate"></i> Qualification</th>
+          <th><i class="fa-solid fa-university"></i> Institution</th>
+          <th><i class="fa-solid fa-calendar-days"></i> Year</th>
+          <th><i class="fa-solid fa-star"></i> Marks</th>
+        </tr>
+        <tr>
+          <td>MBA (Pursuing)</td>
+          <td>Pune Institute of Business Management, Pune</td>
+          <td>2026</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>MA in English Literature (Distance Learning)</td>
+          <td>Yashwantrao Chavan Maharashtra Open University (YCMOU)</td>
+          <td>2024</td>
+          <td>A (Grade)</td>
+        </tr>
+        <tr>
+          <td>M.Com</td>
+          <td>Shivshakti Art, Commerce & Science College, Babhulgaon</td>
+          <td>2024</td>
+          <td>68%</td>
+        </tr>
+        <tr>
+          <td>B.Com</td>
+          <td>Shri. Vithal Rukmani Arts & Commerce College, Sawana</td>
+          <td>2022</td>
+          <td>77%</td>
+        </tr>
+        <tr>
+          <td>HSC</td>
+          <td>G.M. Jr. College, Pusad</td>
+          <td>2017</td>
+          <td>64%</td>
+        </tr>
+        <tr>
+          <td>SSC</td>
+          <td>K.D. High School, Pusad</td>
+          <td>2015</td>
+          <td>93%</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-briefcase"></i> INTERNSHIP EXPERIENCE</div>
+      <p><strong><i class="fa-solid fa-building"></i> Article Assistant | J. S. Khandelwal & Co. (2019–2022)</strong></p>
+      <ul>
+        <li><i class="fa-solid fa-circle-check"></i> Conducted internal audits for Mahindra & Mahindra Finance, ensuring financial compliance.</li>
+        <li><i class="fa-solid fa-circle-check"></i> Managed GST audits, return filings, and tax compliance for corporate clients.</li>
+        <li><i class="fa-solid fa-circle-check"></i> Led statutory and concurrent audits for banks, ensuring regulatory adherence.</li>
+        <li><i class="fa-solid fa-circle-check"></i> Analyzed and prepared annual financial statements, providing insightful reporting.</li>
+        <li><i class="fa-solid fa-circle-check"></i> Conducted physical stock verification and prepared detailed audit reports.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-certificate"></i> CERTIFICATIONS</div>
+      <ul>
+        <li><i class="fa-solid fa-file-lines"></i> Tally Prime with GST – MKCL (2024)</li>
+        <li><i class="fa-solid fa-keyboard"></i> Certified English Typist (40 WPM) &amp; Marathi Typist (30 WPM) – Surabhi Institute (2023)</li>
+        <li><i class="fa-solid fa-laptop-code"></i> Information Technology Training (ITT) &amp; Orientation Course (OC) – ICAI (2019)</li>
+        <li><i class="fa-solid fa-desktop"></i> MSCIT – MKCL (2012)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-project-diagram"></i> ACADEMIC PROJECTS</div>
+      <ul>
+        <li><i class="fa-solid fa-chart-line"></i> <strong>Impact of Remote Work on Employee Productivity &amp; Work-Life Balance:</strong> Analyzed effects using survey tools and secondary research.</li>
+        <li><i class="fa-solid fa-database"></i> <strong>Role of Analytics in the Finance Domain:</strong> Explored how financial analytics enhances data-driven decision-making and performance tracking.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-lightbulb"></i> SKILLS</div>
+      <div class="skills-list">
+        <span class="skill-pill"><i class="fa-solid fa-chart-bar"></i> Financial Analysis &amp; Modeling</span>
+        <span class="skill-pill"><i class="fa-solid fa-calculator"></i> Valuation Techniques (Excel)</span>
+        <span class="skill-pill"><i class="fa-solid fa-file-invoice-dollar"></i> Tally Prime &amp; GST Compliance</span>
+        <span class="skill-pill"><i class="fa-solid fa-shield-halved"></i> Risk Management &amp; Audit</span>
+        <span class="skill-pill"><i class="fa-solid fa-arrows-rotate"></i> Strong Adaptability</span>
+        <span class="skill-pill"><i class="fa-solid fa-graduation-cap"></i> Continuous Learning</span>
+        <span class="skill-pill"><i class="fa-solid fa-keyboard"></i> English &amp; Marathi Typing</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-users"></i> EXTRA-CURRICULAR ACTIVITIES</div>
+      <ul>
+        <li><i class="fa-solid fa-calendar-check"></i> Organized virtual events for social and corporate groups.</li>
+        <li><i class="fa-solid fa-hand-holding-medical"></i> Volunteered in blood donation and social drives.</li>
+        <li><i class="fa-solid fa-chalkboard-user"></i> Attended finance seminars on emerging industry trends.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title"><i class="fa-solid fa-id-badge"></i> PERSONAL DETAILS</div>
+      <ul>
+        <li><i class="fa-solid fa-house"></i> <b>Address:</b> <span class="masked">[Masked for privacy]</span></li>
+        <li><i class="fa-solid fa-ring"></i> <b>Marital Status:</b> Unmarried</li>
+        <li><i class="fa-solid fa-cake-candles"></i> <b>Date of Birth:</b> 17th November 1999</li>
+        <li><i class="fa-solid fa-language"></i> <b>Languages Known:</b> English, Marathi, Hindi</li>
+        <li><i class="fa-solid fa-bolt"></i> <b>Strengths:</b> Strong analytical skills, attention to detail, effective communication, and a proactive approach to problem-solving.</li>
+        <li><i class="fa-solid fa-heart"></i> <b>Hobbies:</b> Event Planning &amp; Coordination, Volunteering for Social Causes</li>
+        <li><i class="fa-solid fa-coins"></i> <b>Interests:</b> Financial markets, corporate finance, and auditing practices.</li>
+      </ul>
+    </div>
+
+    <div class="section declaration">
+      <i class="fa-solid fa-file-signature"></i> I hereby declare that the information furnished above is true and correct to the best of my knowledge.
+      <div class="signature"><i class="fa-solid fa-pen-nib"></i> Rashmi Palladwar</div>
+    </div>
+  </div>
+</body>
+</html>
